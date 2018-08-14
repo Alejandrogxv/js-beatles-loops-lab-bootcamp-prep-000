@@ -1,4 +1,3 @@
-// add solution here
 function theBeatlesPlay(musicians, instruments) {
   var array = [];
   for (var i = 0; i < musicians.length; i++) {
@@ -6,9 +5,7 @@ function theBeatlesPlay(musicians, instruments) {
   }
   return array;
 }
-
-
-function johnLennonFacts(facts) {
+ function johnLennonFacts(facts) {
   var results = [];
   var count = 0;
   while (count < facts.length) {
@@ -17,13 +14,11 @@ function johnLennonFacts(facts) {
   }
   return results;
 }
-
-function iLoveTheBeatles(num){
+ function iLoveTheBeatles(num) {
   var array = [];
-  do{
-    array.push("I love the Beatles.");
-    num++;}
-    while (num<15);
-    return array;
-  
+  do {
+    array.push("I love the Beatles!")
+    num++;
+  } while (num < 15);
+  return array;
 }
